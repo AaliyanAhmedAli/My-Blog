@@ -1,0 +1,300 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:120px ;
+    padding-right:120px ;
+    background-color: #e93a12;
+    /* width: 100%; */
+    color: white;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.heading{
+    display: flex;
+    padding-top: 2px;
+    font-family: 'Satisfy', cursive;
+}
+.logo{
+    margin: 1px 10px;
+}
+
+.navbar > .logsinbtn{
+    height: 40px;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  font-family: 'ADLaM Display', cursive;
+
+}
+.navbar > .logsinbtn > p{
+margin-top: 14px;
+
+}
+.navbar > .heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signupheading{
+    padding-left:120px ;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    font-family: 'Satisfy', cursive;
+    /* box-shadow: 0px 15px 10px -15px #c5c5c5;     */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-bottom: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Modern Browsers */
+textarea::placeholder {
+    font-size: 1rem;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* WebKit, Edge */
+textarea::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Firefox 4-18 */
+textarea:-moz-placeholder {
+    font-size: 1rem;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Firefox 19+ */
+textarea::-moz-placeholder {
+    font-size: 1rem;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* IE 10-11 */
+textarea:-ms-input-placeholder {
+    font-size: 1rem;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Edge */
+textarea::-ms-input-placeholder {
+    font-size: 1rem;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: inline-block;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e93a12  ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    width: 71%;
+    /* height: 250px; */
+    margin-left: 15%;
+background-color: #e93a12   ;    
+}
+textarea{
+    /* display: inline-block; */
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .blog_post {
+    background: #e93a12;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    position: relative;
+    height: 350px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+margin: 5em;
+}
+  
+  
+  .container_copy {
+    padding: 6rem 4rem 5rem 4rem;
+  }
+  
+  .img_pod {
+    height: 110px;
+    width: 110px;
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    z-index: 10;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    position: absolute;
+    left: -10%;
+    top: -13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.blogImg {
+    height: 8.3rem;
+    width: 8.3rem;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  
+  h3 {
+    margin: 0 0 0.5rem 0;
+    color: #fff;
+    font-size: 1.25rem;
+  }
+  
+  h1 {
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+    color: #333;
+  }
+  
+.des{
+    margin: 0 0 4.5rem 0;
+    font-size: 1.5rem;
+    line-height: 1.45;
+    color: #333;
+  }
+  
+  .btn_primary {
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    padding: 1.5rem 2rem;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 1px 10px 2rem rgba(255, 94, 98, 0.5);
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+  }
+  
+  .btn_primary:hover {
+    box-shadow: 0px 5px 1rem rgba(255, 94, 98, 0.5);
+  }
+  
+  @media only screen and (max-width: 650px) {
+    body {
+      background-color: black;
+    }
+  
+    .img_pod {
+  
+    }
+  }
+  
